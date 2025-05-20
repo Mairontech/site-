@@ -1,0 +1,2124 @@
+/* Cores com foco na produção */
+body {
+    font-family: 'Nunito Sans', sans-serif; /* Mantendo a fonte moderna */
+    color: #4a3b31; /* Marrom terroso para o texto principal */
+    background-color: #f5f0e1; /* Bege claro, cor de papel ou terra seca */
+    line-height: 1.7;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Navegação - tons mais neutros e orgânicos */
+.navbar {
+    background-color: #795548 !important; /* Marrom mais escuro, cor de madeira */
+    padding: 0.8rem 0;
+    box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #d7ccc8; /* Bege acinzentado para os links */
+    font-weight: 600;
+    padding: 0.7rem 1.2rem;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #fff !important; /* Branco no hover para destacar */
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #f5f5f5 !important; /* Branco para o link ativo */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(215, 204, 200, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* Conteúdo Principal - tons terrosos e detalhes sutis */
+main {
+    padding: 3rem 0;
+}
+
+.row.align-items-center {
+    margin-bottom: 4rem;
+}
+
+article h2 {
+    color: #5d4037; /* Marrom mais fechado para títulos */
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    border-bottom: 0.2rem solid #a1887f; /* Linha sutil abaixo do título */
+    padding-bottom: 0.5rem;
+}
+
+article .lead {
+    color: #785447; /* Marrom um pouco mais claro */
+    font-size: 1.15rem;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+    font-style: italic; /* Mantendo o itálico para o destaque */
+}
+
+figure {
+    margin: 0;
+}
+
+figure img {
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    border: 0.2rem solid #d7ccc8; /* Borda sutil nas imagens */
+}
+
+figure img:hover {
+    transform: scale(1.03);
+}
+
+figure figcaption {
+    color: #757575;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+/* Seção de Temas - cores que lembram diferentes aspectos da produção */
+.py-5.text-center h2 {
+    font-size: 2.5rem;
+    color: #5d4037; /* Marrom para o título da seção */
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.py-5.text-center .lead {
+    color: #785447; /* Marrom mais claro para o subtítulo */
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    border-radius: 0.75rem;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    background-color: #fff8e1; /* Amarelo bem claro, cor de palha ou grãos */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    height: 220px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.card-title {
+    color: #6d4c41; /* Marrom avermelhado, como barro */
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.card-text {
+    color: #8d6e63; /* Marrom acinzentado */
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.btn-success {
+    background-color: #a1887f; /* Marrom acinzentado mais claro para o botão */
+    border-color: #a1887f;
+    color: #f5f5f5; /* Branco para o texto do botão */
+    font-weight: 600;
+    border-radius: 0.5rem;
+    padding: 0.7rem 1.5rem;
+    transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.btn-success:hover {
+    background-color: #795548; /* Marrom mais escuro no hover */
+    border-color: #795548;
+}
+
+/* Carrossel - tons neutros para não destoar do cabeçalho */
+.carousel {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    border-radius: 0.75rem;
+    overflow: hidden;
+}
+
+.carousel-inner {
+    border-radius: 0.75rem;
+}
+
+.carousel-item img.img-slide {
+    height: 400px;
+    object-fit: cover;
+    border-radius: 0;
+}
+
+.carousel-caption {/* Cores com foco na produção */
+body {
+    font-family: 'Nunito Sans', sans-serif; /* Mantendo a fonte moderna */
+    color: #4a3b31; /* Marrom terroso para o texto principal */
+    background-color: #f5f0e1; /* Bege claro, cor de papel ou terra seca */
+    line-height: 1.7;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Navegação - tons mais neutros e orgânicos */
+.navbar {
+    background-color: #795548 !important; /* Marrom mais escuro, cor de madeira *//* Cores com foco na produção */
+body {
+    font-family: 'Nunito Sans', sans-serif; /* Mantendo a fonte moderna */
+    color: #4a3b31; /* Marrom terroso para o texto principal */
+    background-color: #f5f0e1; /* Bege claro, cor de papel ou terra seca */
+    line-height: 1.7;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Navegação - tons mais neutros e orgânicos */
+.navbar {
+    background-color: #795548 !important; /* Marrom mais escuro, cor de madeira */
+    padding: 0.8rem 0;
+    box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #d7ccc8; /* Bege acinzentado para os links */
+    font-weight: 600;
+    padding: 0.7rem 1.2rem;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #fff !important; /* Branco no hover para destacar */
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #f5f5f5 !important; /* Branco para o link ativo */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(215, 204, 200, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* Conteúdo Principal - tons terrosos e detalhes sutis */
+main {
+    padding: 3rem 0;
+}
+
+.row.align-items-center {
+    margin-bottom: 4rem;
+}
+
+article h2 {
+    color: #5d4037; /* Marrom mais fechado para títulos */
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    border-bottom: 0.2rem solid #a1887f; /* Linha sutil abaixo do título */
+    padding-bottom: 0.5rem;
+}
+
+article .lead {
+    color: #785447; /* Marrom um pouco mais claro */
+    font-size: 1.15rem;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+    font-style: italic; /* Mantendo o itálico para o destaque */
+}
+
+figure {
+    margin: 0;
+}
+
+figure img {
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    border: 0.2rem solid #d7ccc8; /* Borda sutil nas imagens */
+}
+
+figure img:hover {
+    transform: scale(1.03);
+}
+
+figure figcaption {
+    color: #757575;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+/* Seção de Temas - cores que lembram diferentes aspectos da produção */
+.py-5.text-center h2 {
+    font-size: 2.5rem;
+    color: #5d4037; /* Marrom para o título da seção */
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.py-5.text-center .lead {
+    color: #785447; /* Marrom mais claro para o subtítulo */
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    border-radius: 0.75rem;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    background-color: #fff8e1; /* Amarelo bem claro, cor de palha ou grãos */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    height: 220px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.card-title {
+    color: #6d4c41; /* Marrom avermelhado, como barro */
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.card-text {
+    color: #8d6e63; /* Marrom acinzentado */
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.btn-success {
+    background-color: #a1887f; /* Marrom acinzentado mais claro para o botão */
+    border-color: #a1887f;
+    color: #f5f5f5; /* Branco para o texto do botão */
+    font-weight: 600;
+    border-radius: 0.5rem;
+    padding: 0.7rem 1.5rem;
+    transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.btn-success:hover {
+    background-color: #795548; /* Marrom mais escuro no hover */
+    border-color: #795548;
+}
+
+/* Carrossel - tons neutros para não destoar do cabeçalho */
+.carousel {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    border-radius: 0.75rem;
+    overflow: hidden;
+}
+
+.carousel-inner {
+    border-radius: 0.75rem;
+}
+
+.carousel-item img.img-slide {
+    height: 400px;
+    object-fit: cover;
+    border-radius: 0;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo um pouco mais opaco */
+    border-radius: 0.5rem;
+    padding: 1rem;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    text-align: center;
+}
+
+.carousel-caption h5 {
+    color: #eee; /* Cinza claro para o título da legenda */
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.carousel-caption p {
+    color: #ddd; /* Cinza ainda mais claro */
+    font-size: 1rem;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background: none;
+    border: none;
+    opacity: 0.5;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    opacity: 0.9;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.4); /* Fundo mais escuro para os ícones */
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+/* Rodapé - tons terrosos suaves */
+.footer {
+    background-color: #f5f0e1; /* Bege claro */
+    padding: 2.5rem 0;
+    text-align: center;
+    color: #785447; /* Marrom claro */
+    border-top: 1px solid #e0cba8; /* Borda em tom de areia */
+    font-size: 0.9rem;
+}
+
+.footer p {
+    margin-bottom: 0;
+}
+
+/* Estilos para telas menores - mantendo a adaptabilidade */
+@media (max-width: 992px) {
+    .cabecalho h1 {
+        font-size: 2.5rem;
+    }
+
+    .py-5.text-center h2 {
+        font-size: 2rem;
+    }
+
+    .carousel-item img.img-slide {
+        height: 350px;
+    }
+}
+
+@media (max-width: 768px) {
+    .cabecalho {
+        padding: 3rem 0;
+    }/* Cores com foco na produção */
+body {
+    font-family: 'Nunito Sans', sans-serif; /* Mantendo a fonte moderna */
+    color: #4a3b31; /* Marrom terroso para o texto principal */
+    background-color: #f5f0e1; /* Bege claro, cor de papel ou terra seca */
+    line-height: 1.7;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Navegação - tons mais neutros e orgânicos */
+.navbar {
+    background-color: #795548 !important; /* Marrom mais escuro, cor de madeira */
+    padding: 0.8rem 0;
+    box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #d7ccc8; /* Bege acinzentado para os links */
+    font-weight: 600;
+    padding: 0.7rem 1.2rem;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #fff !important; /* Branco no hover para destacar */
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #f5f5f5 !important; /* Branco para o link ativo */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(215, 20
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+4, 200, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* Conteúdo Principal - tons terrosos e detalhes sutis */
+main {
+    padding: 3rem 0;
+}
+
+.row.align-items-center {
+    margin-bottom: 4rem;
+}
+
+article h2 {
+    color: #5d4037; /* Marrom mais fechado para títulos */
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    border-bottom: 0.2rem solid #a1887f; /* Linha sutil abaixo do título */
+    padding-bottom: 0.5rem;
+}
+
+article .lead {
+    color: #785447; /* Marrom um pouco mais claro */
+    font-size: 1.15rem;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    margin-bottom: 1rem;
+    font-style: italic; /* Mantendo o itálico para o destaque */
+}
+
+figure {
+    margin: 0;
+}
+
+figure img {
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    border: 0.2rem solid #d7ccc8; /* Borda sutil nas imagens */
+}
+
+figure img:hover {
+    transform: scale(1.03);
+}
+
+figure figcaption {
+    color: #757575;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+/* Seção de Temas - cores que lembram diferentes aspectos da produção */
+.py-5.text-center h2 {
+    font-size: 2.5rem;
+    color: #5d4037; /* Marrom para o título da seção */
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.py-5.text-center .lead {
+    color: #785447; /* Marrom mais claro para o subtítulo */
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    border-radius: 0.75rem;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    background-color: #fff8e1; /* Amarelo bem claro, cor de palha ou grãos */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    height: 220px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.card-title {
+    color: #6d4c41; /* Marrom avermelhado, como barro */
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.card-text {
+    color: #8d6e63; /* Marrom acinzentado */
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.btn-success {
+    background-color: #a1887f; /* Marrom acinzentado mais claro para o botão */
+    border-color: #a1887f;
+    color: #f5f5f5; /* Branco para o texto do botão */
+    font-weight: 600;
+    border-radius: 0.5rem;
+    padding: 0.7rem 1.5rem;
+    transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.btn-success:hover {
+    background-color: #795548; /* Marrom mais escuro no hover */
+    border-color: #795548;
+}
+
+/* Carrossel - tons neutros para não destoar do cabeçalho */
+.carousel {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    border-radius: 0.75rem;
+    overflow: hidden;
+}
+
+.carousel-inner {
+    border-radius: 0.75rem;
+}
+
+.carousel-item img.img-slide {
+    height: 400px;
+    object-fit: cover;
+    border-radius: 0;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo um pouco mais opaco */
+    border-radius: 0.5rem;
+    padding: 1rem;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    text-align: center;
+}
+
+.carousel-caption h5 {
+    color: #eee; /* Cinza claro para o título da legenda */
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.carousel-caption p {
+    color: #ddd; /* Cinza ainda mais claro */
+    font-size: 1rem;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background: none;
+    border: none;
+    opacity: 0.5;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    opacity: 0.9;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.4); /* Fundo mais escuro para os ícones */
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+/* Rodapé - tons terrosos suaves */
+.footer {
+    background-color: #f5f0e1; /* Bege claro */
+    padding: 2.5rem 0;
+    text-align: center;
+    color: #785447; /* Marrom claro */
+    border-top: 1px solid #e0cba8; /* Borda em tom de areia */
+    font-size: 0.9rem;
+}
+
+.footer p {
+    margin-bottom: 0;
+}
+
+/* Estilos para telas menores - mantendo a adaptabilidade */
+@media (max-width: 992px) {
+    .cabecalho h1 {
+        font-size: 2.5rem;
+    }
+
+    .py-5.text-center h2 {
+        font-size: 2rem;
+    }
+
+    .carousel-item img.img-slide {
+        height: 350px;
+    }
+}
+
+@media (max-width: 768px) {
+    .cabecalho {
+        padding: 3rem 0;
+    }
+
+    .cabecalho h1 {
+        font-size: 2rem;
+    }
+
+    .navbar-dark .navbar-nav {
+        text-align: center;
+    }
+
+    .carousel-item img.img-slide {
+        height: 300px;
+    }
+}
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@media (max-width: 576px) {
+    .cabecalho {
+        padding: 2rem 0;
+    }
+
+    .cabecalho h1 {
+        font-size: 1.75rem;
+    }
+
+    .py-5.text-center h2 {
+        font-size: 1.75rem;
+    }
+
+    .card-img-top {
+        height: 180px;
+    }
+
+    .carousel-caption {
+        padding: 0.5rem;
+        bottom: 10px;
+        left: 10px;
+        right: 10px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 1.2rem;
+    }
+
+    .carousel-caption p {
+        font-size: 0.9rem;
+    }
+}
+
+    .cabecalho h1 {
+        font-size: 2rem;
+    }
+
+    .navbar-dark .navbar-nav {
+        text-align: center;
+    }
+
+    .carousel-item img.img-slide {
+        height: 300px;
+    }
+}
+
+@media (max-width: 576px) {
+    .cabecalho {
+        padding: 2rem 0;
+    }
+
+    .cabecalho h1 {
+        font-size: 1.75rem;
+    }
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+    .py-5.text-center h2 {
+        font-size: 1.75rem;
+    }
+
+    .card-img-top {
+        height: 180px;
+    }
+
+    .carousel-caption {
+        padding: 0.5rem;
+        bottom: 10px;
+        left: 10px;
+        right: 10px;/* Cores com foco na produção */
+body {
+    font-family: 'Nunito Sans', sans-serif; /* Mantendo a fonte moderna */
+    color: #4a3b31; /* Marrom terroso para o texto principal */
+    background-color: #f5f0e1; /* Bege claro, cor de papel ou terra seca */
+    line-height: 1.7;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Navegação - tons mais neutros e orgânicos */
+.navbar {
+    background-color: #795548 !important; /* Marrom mais escuro, cor de madeira */
+    padding: 0.8rem 0;
+    box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #d7ccc8; /* Bege acinzentado para os links */
+    font-weight: 600;
+    padding: 0.7rem 1.2rem;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #fff !important; /* Branco no hover para destacar */
+}
+
+    .carousel-item img.img-slide {
+
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #f5f5f5 !important; /* Branco para o link ativo */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(215, 204, 200, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* Conteúdo Principal - tons terrosos e detalhes sutis */
+main {
+    padding: 3rem 0;
+}
+
+.row.align-items-center {
+    margin-bottom: 4rem;
+}
+
+article h2 {
+    color: #5d4037; /* Marrom mais fechado para títulos */
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+
+    .carousel-item img.img-slide {
+    border-bottom: 0.2rem solid #a1887f; /* Linha sutil abaixo do título */
+    padding-bottom: 0.5rem;
+}
+
+article .lead {
+    color: #785447; /* Marrom um pouco mais claro */
+    font-size: 1.15rem;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+    font-style: italic; /* Mantendo o itálico para o destaque */
+}
+
+figure {
+    margin: 0;
+}
+
+figure img {
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    border: 0.2rem solid #d7ccc8; /* Borda sutil nas imagens */
+}
+
+figure img:hover {
+    transform: scale(1.03);
+}
+
+    .carousel-item img.img-slide {
+
+figure figcaption {
+    color: #757575;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+/* Seção de Temas - cores que lembram diferentes aspectos da produção */
+.py-5.text-center h2 {
+    font-size: 2.5rem;
+    color: #5d4037; /* Marrom para o título da seção */
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.py-5.text-center .lead {
+    color: #785447; /* Marrom mais claro para o subtítulo */
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.card {
+    border: none;
+
+    .carousel-item img.img-slide {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    border-radius: 0.75rem;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    background-color: #fff8e1; /* Amarelo bem claro, cor de palha ou grãos */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    height: 220px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.card-title {
+    color: #6d4c41; /* Marrom avermelhado, como barro */
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.card-text {
+    color: #8d6e63; /* Marrom acinzentado */
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.btn-success {
+    background-color: #a1887f; /* Marrom acinzentado mais claro para o botão */
+    border-color: #a1887f;
+    color: #f5f5f5; /* Branco para o texto do botão */
+    font-weight: 600;
+    border-radius: 0.5rem;
+    padding: 0.7rem 1.5rem;
+    transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.btn-success:hover {
+    background-color: #795548; /* Marrom mais escuro no hover */
+    border-color: #795548;
+}
+
+
+    .carousel-item img.img-slide {
+/* Carrossel - tons neutros para não destoar do cabeçalho */
+.carousel {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    border-radius: 0.75rem;
+    overflow: hidden;
+}
+
+.carousel-inner {
+    border-radius: 0.75rem;
+}
+
+.carousel-item img.img-slide {
+    height: 400px;
+    object-fit: cover;
+    border-radius: 0;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo um pouco mais opaco */
+    border-radius: 0.5rem;
+    padding: 1rem;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    text-align: center;
+}
+
+.carousel-caption h5 {
+    color: #eee; /* Cinza claro para o título da legenda */
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.carousel-caption p {
+    color: #ddd; /* Cinza ainda mais claro */
+    font-size: 1rem;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background: none;
+    border: none;
+    opacity: 0.5;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    opacity: 0.9;
+}
+
+.carousel-control-prev-icon,
+
+    .carousel-item img.img-slide {
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.4); /* Fundo mais escuro para os ícones */
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+/* Rodapé - tons terrosos suaves */
+.footer {
+    background-color: #f5f0e1; /* Bege claro */
+    padding: 2.5rem 0;
+    text-align: center;
+    color: #785447; /* Marrom claro */
+    border-top: 1px solid #e0cba8; /* Borda em tom de areia */
+    font-size: 0.9rem;
+}
+
+.footer p {
+    margin-bottom: 0;
+}
+
+/* Estilos para telas menores - mantendo a adaptabilidade */
+@media (max-width: 992px) {
+    .cabecalho h1 {
+        font-size: 2.5rem;
+    }
+
+    .py-5.text-center h2 {
+        font-size: 2rem;
+    }
+
+    .carousel-item img.img-slide {
+        height: 350px;
+    }
+}
+
+@media (max-width: 768px) {
+    .cabecalho {
+        padding: 3rem 0;
+    }
+
+    .cabecalho h1 {
+        font-size: 2rem;
+    }
+
+    .navbar-dark .navbar-nav {
+        text-align: center;
+    }
+
+    .carousel-item img.img-slide {
+        height: 300px;
+    }
+}
+
+@media (max-width: 576px) {
+    .cabecalho {
+        padding: 2rem 0;
+    }
+
+    .cabecalho h1 {
+        font-size: 1.75rem;
+    }
+
+    .py-5.text-center h2 {
+        font-size: 1.75rem;
+    }
+
+    .card-img-top {
+        height: 180px;
+    }
+
+    .carousel-caption {
+        padding: 0.5rem;
+        bottom: 10px;
+        left: 10px;
+        right: 10px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 1.2rem;
+    }
+
+    .carousel-caption p {
+        font-size: 0.9rem;
+    }
+}
+    }
+
+    .carousel-caption h5 {
+        font-size: 1.2rem;
+    }
+
+    .carousel-caption p {
+        font-size: 0.9rem;
+    }
+}
+    padding: 0.8rem 0;
+    box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #d7ccc8; /* Bege acinzentado para os links */
+    font-weight: 600;
+    padding: 0.7rem 1.2rem;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #fff !important; /* Branco no hover para destacar */
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #f5f5f5 !important; /* Branco para o link ativo */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(215, 204, 200, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* Conteúdo Principal - tons terrosos e detalhes sutis */
+main {
+    padding: 3rem 0;
+}
+
+.row.align-items-center {
+    margin-bottom: 4rem;
+}
+
+article h2 {
+    color: #5d4037; /* Marrom mais fechado para títulos */
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    border-bottom: 0.2rem solid #a1887f; /* Linha sutil abaixo do título */
+    padding-bottom: 0.5rem;
+}
+
+article .lead {
+    color: #785447; /* Marrom um pouco mais claro */
+    font-size: 1.15rem;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+    font-style: italic; /* Mantendo o itálico para o destaque */
+}
+
+figure {
+    margin: 0;
+}
+
+figure img {
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    border: 0.2rem solid #d7ccc8; /* Borda sutil nas imagens */
+}
+
+figure img:hover {
+    transform: scale(1.03);
+}
+
+figure figcaption {
+    color: #757575;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+/* Seção de Temas - cores que lembram diferentes aspectos da produção */
+.py-5.text-center h2 {
+    font-size: 2.5rem;
+    color: #5d4037; /* Marrom para o título da seção */
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.py-5.text-center .lead {
+    color: #785447; /* Marrom mais claro para o subtítulo */
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    border-radius: 0.75rem;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    background-color: #fff8e1; /* Amarelo bem claro, cor de palha ou grãos */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    height: 220px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.card-title {
+    color: #6d4c41; /* Marrom avermelhado, como barro */
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.card-text {
+    color: #8d6e63; /* Marrom acinzentado */
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.btn-success {
+    background-color: #a1887f; /* Marrom acinzentado mais claro para o botão */
+    border-color: #a1887f;
+    color: #f5f5f5; /* Branco para o texto do botão */
+    font-weight: 600;
+    border-radius: 0.5rem;
+    padding: 0.7rem 1.5rem;
+    transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.btn-success:hover {
+    background-color: #795548; /* Marrom mais escuro no hover */
+    border-color: #795548;
+}
+
+/* Carrossel - tons neutros para não destoar do cabeçalho */
+.carousel {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    border-radius: 0.75rem;
+    overflow: hidden;
+}
+
+.carousel-inner {
+    border-radius: 0.75rem;
+}
+
+.carousel-item img.img-slide {
+    height: 400px;
+    object-fit: cover;
+    border-radius: 0;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo um pouco mais opaco */
+    border-radius: 0.5rem;
+    padding: 1rem;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    text-align: center;
+}
+
+.carousel-caption h5 {
+    color: #eee; /* Cinza claro para o título da legenda */
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.carousel-caption p {
+    color: #ddd; /* Cinza ainda mais claro */
+    font-size: 1rem;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background: none;
+    border: none;
+    opacity: 0.5;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    opacity: 0.9;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.4); /* Fundo mais escuro para os ícones */
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+/* Rodapé - tons terrosos suaves */
+.footer {
+    background-color: #f5f0e1; /* Bege claro */
+    padding: 2.5rem 0;
+    text-align: center;
+    color: #785447; /* Marrom claro */
+    border-top: 1px solid #e0cba8; /* Borda em tom de areia */
+    font-size: 0.9rem;
+}
+
+.footer p {
+    margin-bottom: 0;
+}
+
+/* Estilos para telas menores - mantendo a adaptabilidade */
+@media (max-width: 992px) {
+    .cabecalho h1 {
+        font-size: 2.5rem;
+    }
+
+    .py-5.text-center h2 {
+        font-size: 2rem;
+    }
+
+    .carousel-item img.img-slide {
+        height: 350px;
+    }
+}
+
+@media (max-width: 768px) {
+    .cabecalho {
+        padding: 3rem 0;
+    }
+
+    .cabecalho h1 {
+        font-size: 2rem;
+    }
+/* Cores com foco na produção */
+body {
+    font-family: 'Nunito Sans', sans-serif; /* Mantendo a fonte moderna */
+    color: #4a3b31; /* Marrom terroso para o texto principal */
+    background-color: #f5f0e1; /* Bege claro, cor de papel ou terra seca */
+    line-height: 1.7;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Navegação - tons mais neutros e orgânicos */
+.navbar {
+    background-color: #795548 !important; /* Marrom mais escuro, cor de madeira */
+    padding: 0.8rem 0;
+    box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #d7ccc8; /* Bege acinzentado para os links */
+    font-weight: 600;
+    padding: 0.7rem 1.2rem;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #fff !important; /* Branco no hover para destacar */
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #f5f5f5 !important; /* Branco para o link ativo */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(215, 204, 200, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* Conteúdo Principal - tons terrosos e detalhes sutis */
+main {
+    padding: 3rem 0;
+}
+
+.row.align-items-center {
+    margin-bottom: 4rem;
+}
+
+article h2 {
+    color: #5d4037; /* Marrom mais fechado para títulos */
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    border-bottom: 0.2rem solid #a1887f; /* Linha sutil abaixo do título */
+    padding-bottom: 0.5rem;
+}
+
+article .lead {
+    color: #785447; /* Marrom um pouco mais claro */
+    font-size: 1.15rem;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+    font-style: italic; /* Mantendo o itálico para o destaque */
+}
+
+figure {
+    margin: 0;
+}
+
+figure img {
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    border: 0.2rem solid #d7ccc8; /* Borda sutil nas imagens */
+}
+
+figure img:hover {
+    transform: scale(1.03);
+}
+
+figure figcaption {
+    color: #757575;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+/* Seção de Temas - cores que lembram diferentes aspectos da produção */
+.py-5.text-center h2 {
+    font-size: 2.5rem;
+    color: #5d4037; /* Marrom para o título da seção */
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.py-5.text-center .lead {
+    color: #785447; /* Marrom mais claro para o subtítulo */
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    border-radius: 0.75rem;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    background-color: #fff8e1; /* Amarelo bem claro, cor de palha ou grãos */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    height: 220px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.card-title {
+    color: #6d4c41; /* Marrom avermelhado, como barro */
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.card-text {
+    color: #8d6e63; /* Marrom acinzentado */
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.btn-success {
+    background-color: #a1887f; /* Marrom acinzentado mais claro para o botão */
+    border-color: #a1887f;
+    color: #f5f5f5; /* Branco para o texto do botão */
+    font-weight: 600;
+    border-radius: 0.5rem;
+    padding: 0.7rem 1.5rem;
+    transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.btn-success:hover {
+    background-color: #795548; /* Marrom mais escuro no hover */
+    border-color: #795548;
+}
+
+/* Carrossel - tons neutros para não destoar do cabeçalho */
+.carousel {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    border-radius: 0.75rem;
+    overflow: hidden;
+}
+
+.carousel-inner {
+    border-radius: 0.75rem;
+}
+
+.carousel-item img.img-slide {
+    height: 400px;
+    object-fit: cover;
+    border-radius: 0;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo um pouco mais opaco */
+    border-radius: 0.5rem;
+    padding: 1rem;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    text-align: center;
+}
+
+.carousel-caption h5 {
+    color: #eee; /* Cinza claro para o título da legenda */
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.carousel-caption p {
+    color: #ddd; /* Cinza ainda mais claro */
+    font-size: 1rem;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background: none;
+    border: none;
+    opacity: 0.5;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    opacity: 0.9;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.4); /* Fundo mais escuro para os ícones */
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+/* Rodapé - tons terrosos suaves */
+.footer {
+    background-color: #f5f0e1; /* Bege claro */
+    padding: 2.5rem 0;
+    text-align: center;
+    color: #785447; /* Marrom claro */
+    border-top: 1px solid #e0cba8; /* Borda em tom de areia */
+    font-size: 0.9rem;
+}
+
+.footer p {
+    margin-bottom: 0;
+}
+
+/* Estilos para telas menores - mantendo a adaptabilidade */
+@media (max-width: 992px) {
+    .cabecalho h1 {
+        font-size: 2.5rem;
+    }
+
+    .py-5.text-center h2 {
+        font-size: 2rem;
+    }
+
+    .carousel-item img.img-slide {
+        height: 350px;
+    }
+}
+
+@media (max-width: 768px) {
+    .cabecalho {
+        padding: 3rem 0;
+    }
+
+    .cabecalho h1 {
+        font-size: 2rem;
+    }
+
+    .navbar-dark .navbar-nav {
+        text-align: center;
+    }
+
+    .carousel-item img.img-slide {
+        height: 300px;
+    }
+}
+
+@media (max-width: 576px) {
+    .cabecalho {
+        padding: 2rem 0;
+    }
+
+    .cabecalho h1 {
+        font-size: 1.75rem;
+    }
+
+    .py-5.text-center h2 {
+        font-size: 1.75rem;
+    }
+
+    .card-img-top {
+        height: 180px;
+    }
+
+    .carousel-caption {
+        padding: 0.5rem;
+        bottom: 10px;/* Cores com foco na produção */
+body {
+    font-family: 'Nunito Sans', sans-serif; /* Mantendo a fonte moderna */
+    color: #4a3b31; /* Marrom terroso para o texto principal */
+    background-color: #f5f0e1; /* Bege claro, cor de papel ou terra seca */
+    line-height: 1.7;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Navegação - tons mais neutros e orgânicos */
+.navbar {
+    background-color: #795548 !important; /* Marrom mais escuro, cor de madeira */
+    padding: 0.8rem 0;
+    box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #d7ccc8; /* Bege acinzentado para os links */
+    font-weight: 600;
+    padding: 0.7rem 1.2rem;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #fff !important; /* Branco no hover para destacar */
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #f5f5f5 !important; /* Branco para o link ativo */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(215, 204, 200, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* Conteúdo Principal - tons terrosos e detalhes sutis */
+main {
+    padding: 3rem 0;
+}
+
+.row.align-items-center {
+    margin-bottom: 4rem;
+}
+
+article h2 {
+    color: #5d4037; /* Marrom mais fechado para títulos */
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    border-bottom: 0.2rem solid #a1887f; /* Linha sutil abaixo do título */
+    padding-bottom: 0.5rem;
+}
+
+article .lead {
+    color: #785447; /* Marrom um pouco mais claro */
+    font-size: 1.15rem;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+    font-style: italic; /* Mantendo o itálico para o destaque */
+}
+
+figure {
+    margin: 0;
+}
+
+figure img {
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    border: 0.2rem solid #d7ccc8; /* Borda sutil nas imagens */
+}
+
+figure img:hover {
+    transform: scale(1.03);
+}
+
+figure figcaption {
+    color: #757575;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+/* Seção de Temas - cores que lembram diferentes aspectos da produção */
+.py-5.text-center h2 {
+    font-size: 2.5rem;
+    color: #5d4037; /* Marrom para o título da seção */
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.py-5.text-center .lead {
+    color: #785447; /* Marrom mais claro para o subtítulo */
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    border-radius: 0.75rem;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    background-color: #fff8e1; /* Amarelo bem claro, cor de palha ou grãos */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    height: 220px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.card-title {
+    color: #6d4c41; /* Marrom avermelhado, como barro */
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.card-text {
+    color: #8d6e63; /* Marrom acinzentado */
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.btn-success {
+    background-color: #a1887f; /* Marrom acinzentado mais claro para o botão */
+    border-color: #a1887f;
+    color: #f5f5f5; /* Branco para o texto do botão */
+    font-weight: 600;
+    border-radius: 0.5rem;
+    padding: 0.7rem 1.5rem;
+    transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.btn-success:hover {
+    background-color: #795548; /* Marrom mais escuro no hover */
+    border-color: #795548;
+}
+
+/* Carrossel - tons neutros para não destoar do cabeçalho */
+.carousel {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    border-radius: 0.75rem;
+    overflow: hidden;
+}
+
+.carousel-inner {
+    border-radius: 0.75rem;
+}
+
+.carousel-item img.img-slide {
+    height: 400px;
+    object-fit: cover;
+    border-radius: 0;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo um pouco mais opaco */
+    border-radius: 0.5rem;
+    padding: 1rem;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    text-align: center;
+}
+
+.carousel-caption h5 {
+    color: #eee; /* Cinza claro para o título da legenda */
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.carousel-caption p {
+    color: #ddd; /* Cinza ainda mais claro */
+    font-size: 1rem;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background: none;
+    border: none;
+    opacity: 0.5;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    opacity: 0.9;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.4); /* Fundo mais escuro para os ícones */
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+/* Rodapé - tons terrosos suaves */
+.footer {
+    background-color: #f5f0e1; /* Bege claro */
+    padding: 2.5rem 0;
+    text-align: center;
+    color: #785447; /* Marrom claro */
+    border-top: 1px solid #e0cba8; /* Borda em tom de areia */
+    font-size: 0.9rem;
+}
+
+.footer p {
+    margin-bottom: 0;
+}
+
+/* Estilos para telas menores - mantendo a adaptabilidade */
+@media (max-width: 992px) {
+    .cabecalho h1 {
+        font-size: 2.5rem;
+    }
+
+    .py-5.text-center h2 {
+        font-size: 2rem;
+    }
+
+    .carousel-item img.img-slide {
+        height: 350px;
+    }
+}
+
+@media (max-width: 768px) {
+    .cabecalho {
+        padding: 3rem 0;
+    }
+
+    .cabecalho h1 {
+        font-size: 2rem;
+    }
+
+    .navbar-dark .navbar-nav {
+        text-align: center;
+    }
+
+    .carousel-item img.img-slide {
+        height: 300px;
+    }
+}
+
+@media (max-width: 576px) {
+    .cabecalho {
+        padding: 2rem 0;
+    }
+
+    .cabecalho h1 {
+        font-size: 1.75rem;
+    }
+
+    .py-5.text-center h2 {
+        font-size: 1.75rem;
+    }
+
+    .card-img-top {
+        height: 180px;
+    }
+
+    .carousel-caption {
+        padding: 0.5rem;
+        bottom: 10px;
+        left: 10px;
+        right: 10px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 1.2rem;
+    }
+
+    .carousel-caption p {
+        font-size: 0.9rem;
+    }
+}
+        left: 10px;
+        right: 10px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 1.2rem;
+    }
+
+    .carousel-caption p {
+        font-size: 0.9rem;
+    }
+}
+    .navbar-dark .navbar-nav {
+        text-align: center;
+    }
+
+    .carousel-item img.img-slide {
+        height: 300px;
+    }
+}
+
+@media (max-width: 576px) {
+    .cabecalho {
+        padding: 2rem 0;
+    }
+
+    .cabecalho h1 {
+        font-size: 1.75rem;
+    }
+
+    .py-5.text-center h2 {
+        font-size: 1.75rem;
+    }
+
+    .card-img-top {
+        height: 180px;
+    }
+
+    .carousel-caption {
+        padding: 0.5rem;
+        bottom: 10px;
+        left: 10px;
+        right: 10px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 1.2rem;
+    }
+
+    .carousel-caption p {
+        font-size: 0.9rem;
+    }
+}
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo um pouco mais opaco */
+    border-radius: 0.5rem;
+    padding: 1rem;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    text-align: center;
+}
+
+.carousel-caption h5 {
+    color: #eee; /* Cinza claro para o título da legenda */
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.carousel-caption p {
+    color: #ddd; /* Cinza ainda mais claro */
+    font-size: 1rem;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background: none;
+    border: none;
+    opacity: 0.5;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    opacity: 0.9;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.4); /* Fundo mais escuro para os ícones */
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+/* Rodapé - tons terrosos suaves */
+.footer {
+    background-color: #f5f0e1; /* Bege claro */
+    padding: 2.5rem 0;
+    text-align: center;
+    color: #785447; /* Marrom claro */
+    border-top: 1px solid #e0cba8; /* Borda em tom de areia */
+    font-size: 0.9rem;
+}
+
+.footer p {
+    margin-bottom: 0;
+}
+
+/* Estilos para telas menores - mantendo a adaptabilidade */
+@media (max-width: 992px) {
+    .cabecalho h1 {
+        font-size: 2.5rem;
+    }
+
+    .py-5.text-center h2 {
+        font-size: 2rem;
+    }
+
+    .carousel-item img.img-slide {
+        height: 350px;
+    }
+}
+
+@media (max-width: 768px) {
+    .cabecalho {
+        padding: 3rem 0;
+    }
+
+    .cabecalho h1 {
+        font-size: 2rem;
+    }
+
+    .navbar-dark .navbar-nav {
+        text-align: center;
+    }
+
+    .carousel-item img.img-slide {
+        height: 300px;
+    }
+}
+
+@media (max-width: 576px) {
+    .cabecalho {
+        padding: 2rem 0;
+    }
+
+    .cabecalho h1 {
+        font-size: 1.75rem;
+    }
+
+    .py-5.text-center h2 {
+        font-size: 1.75rem;
+    }
+
+    .card-img-top {
+        height: 180px;
+    }
+
+    .carousel-caption {
+        padding: 0.5rem;
+        bottom: 10px;
+        left: 10px;
+        right: 10px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 1.2rem;
+    }
+
+    .carousel-caption p {
+        font-size: 0.9rem;
+    }
+}
