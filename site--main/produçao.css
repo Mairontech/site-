@@ -1,0 +1,367 @@
+/* Base Styles */
+body {
+    font-family: 'Nunito Sans', sans-serif; /* Modern, friendly font */
+    color: #333;
+    background-color: #f4fcf7; /* Very light, soft green */
+    line-height: 1.7;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header (INTOCADO - DO NOT MODIFY) */
+.cabecalho {
+    background-color: #e8f5e9; /* Light green */
+    padding: 4rem 0;
+    text-align: center;
+    background-image: url('site.gif'); /* Subtle rural landscape GIF */
+    background-size: cover;
+    background-position: center bottom;
+    color: #1b5e20; /* Dark green for header text */
+    position: relative;
+    z-index: 1;
+}
+
+.cabecalho::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(232, 245, 233, 0.8); /* Semi-transparent overlay for better readability */
+    z-index: -1;
+}
+
+.cabecalho h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.cabecalho .lead {
+    font-size: 1.25rem;
+    color: #388e3c; /* Slightly stronger green */
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+/* Navigation Bar (Emphasis on earthy and neutral tones) */
+.navbar {
+    background-color: #8bc34a !important; /* A more "natural" green */
+    padding: 0.8rem 0;
+    box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #f1f8e9; /* A very light beige */
+    font-weight: 600;
+    padding: 0.7rem 1.2rem;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #dcedc8 !important; /* Slightly darker beige on hover */
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #fff !important; /* White for active link */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+/* Using a more direct SVG for the toggler icon */
+.navbar-toggler-icon {
+    background-image: url("site.gif");
+}
+
+/* Main Content (Shades of green and soft yellow for solar energy) */
+main {
+    padding: 3rem 0;
+}
+
+.row.align-items-center {
+    margin-bottom: 4rem;
+}
+
+article h2 {
+    color: #558b2f; /* Darker green */
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+article .lead {
+    color: #7cb342; /* Slightly clearer and more vibrant green */
+    font-size: 1.15rem;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}
+
+figure {
+    margin: 0; /* Remove default margin */
+}
+
+figure img {
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    max-width: 100%; /* Ensure images are responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+figure img:hover {
+    transform: scale(1.03);
+}
+
+figure figcaption {
+    color: #757575;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+/* Themes Section (Colors reminiscent of different energy sources) */
+.py-5.text-center h2 {
+    font-size: 2.5rem;
+    color: #388e3c; /* One of the greens */
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.py-5.text-center .lead {
+    color: #689f38; /* Another shade of green */
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    border-radius: 0.75rem;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Add shadow transition */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.15); /* Slightly stronger shadow on hover */
+}
+
+.card-img-top {
+    height: 220px;
+    object-fit: cover;
+    width: 100%; /* Ensure image fills card width */
+}
+
+.card-body {
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.card-title {
+    color: #43a047; /* A livelier green */
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.card-text {
+    color: #558b2f; /* Returning to one of the greens */
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.btn-success {
+    background-color: #aed581; /* Lighter, softer green */
+    border-color: #aed581;
+    color: #33691e; /* Dark green for contrast */
+    font-weight: 600;
+    border-radius: 0.5rem;
+    padding: 0.7rem 1.5rem;
+    transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, color 0.3s ease-in-out; /* Add color transition */
+}
+
+.btn-success:hover {
+    background-color: #8bc34a; /* Main navigation green on hover */
+    border-color: #8bc34a;
+    color: #fff; /* White text on hover for better contrast */
+}
+
+/* Carousel (Tones that evoke sun and sky) */
+.carousel {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    border-radius: 0.75rem;
+    overflow: hidden;
+    margin-top: 2rem; /* Add some space above the carousel */
+}
+
+.carousel-inner {
+    border-radius: 0.75rem;
+}
+
+.carousel-item img.img-slide {
+    height: 400px;
+    object-fit: cover;
+    width: 100%; /* Ensure image fills carousel item */
+    border-radius: 0; /* No radius here as it's applied to carousel-inner */
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.75); /* Slightly more opaque */
+    border-radius: 0.5rem;
+    padding: 1rem;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    text-align: center;
+    max-width: calc(100% - 40px); /* Adjust max-width for padding */
+    margin: 0 auto; /* Center the caption */
+}
+
+.carousel-caption h5 {
+    color: #fffde7; /* Very light yellow */
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.carousel-caption p {
+    color: #fff8e1; /* Even lighter yellow */
+    font-size: 1rem;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background: none;
+    border: none;
+    opacity: 0.7; /* Slightly more visible */
+    transition: opacity 0.3s ease-in-out;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    opacity: 1; /* Fully visible on hover */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Slightly darker background */
+    border-radius: 50%;
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Subtle shadow for better visibility */
+}
+
+/* Footer (Neutral and earthy colors) */
+.footer {
+    background-color: #f0f4c3; /* Very light, soft yellow */
+    padding: 2.5rem 0;
+    text-align: center;
+    color: #558b2f; /* Darker green */
+    border-top: 1px solid #dce775; /* Stronger yellow tone for the border */
+    font-size: 0.9rem;
+}
+
+.footer p {
+    margin-bottom: 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+    .cabecalho h1 {
+        font-size: 2.5rem;
+    }
+
+    .py-5.text-center h2 {
+        font-size: 2rem;
+    }
+
+    .carousel-item img.img-slide {
+        height: 350px;
+    }
+}
+
+@media (max-width: 768px) {
+    .cabecalho {
+        padding: 3rem 0;
+    }
+
+    .cabecalho h1 {
+        font-size: 2rem;
+    }
+
+    .navbar-dark .navbar-nav {
+        text-align: center;
+    }
+
+    .carousel-item img.img-slide {
+        height: 300px;
+    }
+
+    .carousel-caption {
+        padding: 0.8rem;
+        bottom: 15px;
+        left: 15px;
+        right: 15px;
+    }
+}
+
+@media (max-width: 576px) {
+    .cabecalho {
+        padding: 2rem 0;
+    }
+
+    .cabecalho h1 {
+        font-size: 1.75rem;
+    }
+
+    .cabecalho .lead {
+        font-size: 1.1rem;
+    }
+
+    .py-5.text-center h2 {
+        font-size: 1.75rem;
+    }
+
+    .card-img-top {
+        height: 180px;
+    }
+
+    .carousel-caption {
+        padding: 0.5rem;
+        bottom: 10px;
+        left: 10px;
+        right: 10px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 1.2rem;
+    }
+
+    .carousel-caption p {
+        font-size: 0.9rem;
+    }
+
+    /* Adjust padding for smaller screens */
+    .container {
+        padding: 0 15px;
+    }
+
+    main {
+        padding: 2rem 0;
+    }
+}
